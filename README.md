@@ -184,9 +184,17 @@ Contains tables, views, configuration file and input files related to personal i
     - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/84214200-ac98-11ea-8a24-92fbc2b4cea5)
 
  - **PersonalInterestForm.PositionDetailsPIPCA**
-    - ***Description***: associated with Form Question related "Kind of Personal Interest"
+    - ***Description***: associated with Form Question related "Kind of Personal Interest of PCA"
     - ***Section***: Section 4(PIPCA - Board Member, Employee, Student)
     - ***Fields***: PositionPIPCAId, PositionPIPCADescInput, PositionPIPCADescOutput
     - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
     - ***Input File***: load/configuration/PersonalInterestForm/PositionDetailsPIPCA.csv
     - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/cba7ce00-ac98-11ea-968a-827ec5a52884)
+
+- **PersonalInterestForm.PositionBoardDetailsPIPCA**
+    - ***Description***: associated with Form Question related "Kind of Boardmembership of PCA"
+    - ***Section***: Section 4(PIPCA - Board Member, Employee, Student)
+    - ***Fields***: PositionBoardPIPCAId, PositionBoardPIPCADescInput, PositionBoardPIPCADescOutput
+    - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
+    - ***Input File***: load/configuration/PersonalInterestForm/PositionBoardDetailsPIPCA.csv
+    - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/47a31580-ac9b-11ea-8c08-596ac5883e17)
