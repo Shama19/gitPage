@@ -118,3 +118,28 @@ Contains tables, views, configuration file and input files related to personal i
     - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
     - ***Input File***: load/configuration/PersonalInterestForm/ExistingContractYes.csv
     - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/fe4ec800-ac92-11ea-95a1-385bb22d8d0a)
+ 
+  - **PersonalInterestForm.WorkAffected**
+    - ***Description***: associated with Form Question related "Work affected by Personal Interest"
+    - ***Section***: Section 4(PI - Board Member)
+    - ***Fields***: WorkAffectedId, WorkAffectedDescriptionInput, WorkAffectedDescriptionOutput
+    - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
+    - ***Input File***: load/configuration/PersonalInterestForm/WorkAffected.csv
+    - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/1a069e00-ac94-11ea-9637-b26afc6ebd4c)
+    
+ 
+ - **PersonalInterestForm.FICoIFI**
+    - ***Description***: associated with Form Question related "Financial Interest in Third Party"
+    - ***Section***: Section 4(FI - Board Member, Employee, Student)
+    - ***Fields***: FICoIFIId, FICoIFIDescriptionInput, FICoIFIDescriptionOutput
+    - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
+    - ***Input File***: load/configuration/PersonalInterestForm/FICoIFI.csv
+    - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/723da000-ac94-11ea-8998-d6b0022c5a57)
+
+ - **PersonalInterestForm.InterestDBGFI**
+    - ***Description***: associated with Form Question related "Existing contract or any pending negotiation details"
+    - ***Section***: Section 4(FI - Board Member, Employee, Student)
+    - ***Fields***: InterestDBGFIId, InterestDBGFIDescriptionInput, InterestDBGFIDescriptionOutput
+    - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
+    - ***Input File***: load/configuration/PersonalInterestForm/InterestDBGFI.csv
+    - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/06a80280-ac95-11ea-9963-61fe04120791)
