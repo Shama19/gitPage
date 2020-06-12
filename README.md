@@ -175,7 +175,7 @@ Contains tables, views, configuration file and input files related to personal i
     - ***Input File***: load/configuration/PersonalInterestForm/AssociatedPersonDetails.csv
     - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/e711d980-ac96-11ea-897a-8c53610def70)
  
-   - **PersonalInterestForm.IfMandatePerformed**
+  - **PersonalInterestForm.IfMandatePerformed**
     - ***Description***: associated with Form Question related "Influence in the investment club or similar association
     - ***Section***: Section 2(PIPCA - Board Member, Employee, Student)
     - ***Fields***: ActivityforDBGId, ActivityforDBGDescInput, ActivityforDBGDescOutput
