@@ -160,7 +160,7 @@ Contains tables, views, configuration file and input files related to personal i
     - ***Input File***: load/configuration/PersonalInterestForm/KindParticipation.csv
     - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/402d3d80-ac96-11ea-869b-ecea9cbda8c2)
     
-   - **PersonalInterestForm.InvestmentClubInfluenceFI**
+  - **PersonalInterestForm.InvestmentClubInfluenceFI**
     - ***Description***: associated with Form Question related "Influence in the investment club or similar association
     - ***Section***: Section 3(FI - Board Member, Employee, Student)
     - ***Fields***: InvestmentClubInfluenceFIId, InvestmentClubInfluenceFIDescInput, InvestmentClubInfluenceFIDescOutput
