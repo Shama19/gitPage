@@ -174,3 +174,19 @@ Contains tables, views, configuration file and input files related to personal i
     - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
     - ***Input File***: load/configuration/PersonalInterestForm/AssociatedPersonDetails.csv
     - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/e711d980-ac96-11ea-897a-8c53610def70)
+ 
+   - **PersonalInterestForm.IfMandatePerformed**
+    - ***Description***: associated with Form Question related "Influence in the investment club or similar association
+    - ***Section***: Section 2(PIPCA - Board Member, Employee, Student)
+    - ***Fields***: ActivityforDBGId, ActivityforDBGDescInput, ActivityforDBGDescOutput
+    - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
+    - ***Input File***: load/configuration/PersonalInterestForm/IfMandatePerformed.csv
+    - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/84214200-ac98-11ea-8a24-92fbc2b4cea5)
+
+ - **PersonalInterestForm.PositionDetailsPIPCA**
+    - ***Description***: associated with Form Question related "Kind of Personal Interest"
+    - ***Section***: Section 4(PIPCA - Board Member, Employee, Student)
+    - ***Fields***: PositionPIPCAId, PositionPIPCADescInput, PositionPIPCADescOutput
+    - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
+    - ***Input File***: load/configuration/PersonalInterestForm/PositionDetailsPIPCA.csv
+    - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/cba7ce00-ac98-11ea-968a-827ec5a52884)
