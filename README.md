@@ -130,16 +130,48 @@ Contains tables, views, configuration file and input files related to personal i
  
  - **PersonalInterestForm.FICoIFI**
     - ***Description***: associated with Form Question related "Financial Interest in Third Party"
-    - ***Section***: Section 4(FI - Board Member, Employee, Student)
+    - ***Section***: Section 2(FI - Board Member, Employee, Student)
     - ***Fields***: FICoIFIId, FICoIFIDescriptionInput, FICoIFIDescriptionOutput
     - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
     - ***Input File***: load/configuration/PersonalInterestForm/FICoIFI.csv
     - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/723da000-ac94-11ea-8998-d6b0022c5a57)
 
  - **PersonalInterestForm.InterestDBGFI**
-    - ***Description***: associated with Form Question related "Existing contract or any pending negotiation details"
-    - ***Section***: Section 4(FI - Board Member, Employee, Student)
+    - ***Description***: associated with Form Question related "Financial Interest in DBG company/entity"
+    - ***Section***: Section 2(FI - Board Member, Employee, Student)
     - ***Fields***: InterestDBGFIId, InterestDBGFIDescriptionInput, InterestDBGFIDescriptionOutput
     - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
     - ***Input File***: load/configuration/PersonalInterestForm/InterestDBGFI.csv
     - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/06a80280-ac95-11ea-9963-61fe04120791)
+    
+   - **PersonalInterestForm.FinanceInterestDetails**
+    - ***Description***: associated with Form Question related "Kind of Financial Interest in Third Party"
+    - ***Section***: Section 3(FI - Board Member, Employee, Student)
+    - ***Fields***: FinanceInterestId, FinanceInterestDescInput, FinanceInterestDescOutput
+    - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
+    - ***Input File***: load/configuration/PersonalInterestForm/FinanceInterestDetails.csv
+    - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/a9f91780-ac95-11ea-93f2-20b6fa30d138)
+
+ - **PersonalInterestForm.KindParticipation**
+    - ***Description***: associated with Form Question related "Amount of the ownership in the affected company/ entity"
+    - ***Section***: Section 3(FI - Board Member, Employee, Student)
+    - ***Fields***: KindParticipationId, KindParticipationDescInput, KindParticipationDescOutput
+    - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
+    - ***Input File***: load/configuration/PersonalInterestForm/KindParticipation.csv
+    - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/402d3d80-ac96-11ea-869b-ecea9cbda8c2)
+    
+   - **PersonalInterestForm.InvestmentClubInfluenceFI**
+    - ***Description***: associated with Form Question related "Influence in the investment club or similar association
+    - ***Section***: Section 3(FI - Board Member, Employee, Student)
+    - ***Fields***: InvestmentClubInfluenceFIId, InvestmentClubInfluenceFIDescInput, InvestmentClubInfluenceFIDescOutput
+    - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
+    - ***Input File***: load/configuration/PersonalInterestForm/InvestmentClubInfluenceFI.csv
+    - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/7c609e00-ac96-11ea-9f3b-0dfec0788b7c)
+
+ - **PersonalInterestForm.AssociatedPersonDetails**
+    - ***Description***: associated with Form Question related "Person associated with you"
+    - ***Section***: Section 2(PIPCA - Board Member, Employee, Student)
+    - ***Fields***: AssociatedPersonId, AssociatedPersonDescInput, AssociatedPersonDescOutput
+    - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
+    - ***Input File***: load/configuration/PersonalInterestForm/AssociatedPersonDetails.csv
+    - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/e711d980-ac96-11ea-897a-8c53610def70)
