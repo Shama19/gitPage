@@ -144,7 +144,7 @@ Contains tables, views, configuration file and input files related to personal i
     - ***Input File***: load/configuration/PersonalInterestForm/InterestDBGFI.csv
     - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/06a80280-ac95-11ea-9963-61fe04120791)
     
-   - **PersonalInterestForm.FinanceInterestDetails**
+  - **PersonalInterestForm.FinanceInterestDetails**
     - ***Description***: associated with Form Question related "Kind of Financial Interest in Third Party"
     - ***Section***: Section 3(FI - Board Member, Employee, Student)
     - ***Fields***: FinanceInterestId, FinanceInterestDescInput, FinanceInterestDescOutput
