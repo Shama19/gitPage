@@ -102,3 +102,19 @@ Contains tables, views, configuration file and input files related to personal i
     - ***Input File***: load/configuration/PersonalInterestForm/LinkPI.csv
     - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/3dd9cd80-ac1b-11ea-8084-2c6d4ad4eed6)
     
+ 
+ - **PersonalInterestForm.ExistingContract**
+    - ***Description***: associated with Form Question related "Existing contract or any pending negotiation"
+    - ***Section***: Section 4(PI - Board Member, Employee)
+    - ***Fields***: ExistingContractId, ExistingContractDescriptionInput, ExistingContractDescriptionOutput
+    - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
+    - ***Input File***: load/configuration/PersonalInterestForm/ExistingContract.csv
+    - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/e119f980-ac92-11ea-90c7-89e4cb9c2587)
+
+ - **PersonalInterestForm.ExistingContractYes**
+    - ***Description***: associated with Form Question related "Existing contract or any pending negotiation details"
+    - ***Section***: Section 4(PI - Board Member)
+    - ***Fields***: ExistingContractYesId, ExistingContractYesDescriptionInput, ExistingContractYesDescriptionOutput
+    - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
+    - ***Input File***: load/configuration/PersonalInterestForm/ExistingContractYes.csv
+    - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/fe4ec800-ac92-11ea-95a1-385bb22d8d0a)
