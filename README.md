@@ -43,7 +43,6 @@ Contains tables, views, configuration file and input files related to personal i
   - ***Fields***: DormantId, DormantDescriptionInput, DormantDescriptionOutput
   - ***Configuration File***: load/configuration/PersonalInterestForm/declaration.hdbtabledata
   - ***Input File***: load/configuration/PersonalInterestForm/Dormant.csv
-  
   - ![image](https://github.deutsche-boerse.de/storage/user/3147/files/4383e300-ac1c-11ea-9dcf-e0239ee47483)
   
  - **PersonalInterestForm.PersonalPositionDetails**
